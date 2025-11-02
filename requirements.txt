@@ -1,0 +1,12 @@
+streamlit
+pandas
+numpy
+scikit-learn
+plotly
+kaleido
+prophet
+xgboost
+lightgbm
+catboost
+reportlab
+pillow
