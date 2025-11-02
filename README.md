@@ -39,9 +39,47 @@ El conjunto de datos ha sido limpiado y procesado para su uso en esta aplicació
 
 ---
 
+## ⚙️ Instalación y ejecución
+
+Sigue estos pasos para ejecutar el proyecto localmente desde el repositorio:  
+🔗 **Repositorio:** [github.com/tebanramirez93/reporte_automatico](https://github.com/tebanramirez93/reporte_automatico)
+
+### 1️⃣ Clonar el repositorio
+```bash
+git clone https://github.com/tebanramirez93/reporte_automatico.git
+cd reporte_automatico
+```
+
+### 2️⃣ Crear y activar un entorno virtual
+**En Windows:**
+```bash
+python -m venv env
+env\Scripts\activate
+```
+**En macOS o Linux:**
+```bash
+python3 -m venv env
+source env/bin/activate
+```
+
+### 3️⃣ Instalar las dependencias
+```bash
+pip install -r requirements.txt
+```
+
+### 4️⃣ Ejecutar la aplicación Streamlit
+```bash
+streamlit run app.py
+```
+
+Esto abrirá la aplicación en tu navegador en la dirección:  
+👉 **http://localhost:8501**
+
+---
+
 ## 🧠 Tecnologías utilizadas
 - **Python** (Streamlit, Pandas, Matplotlib, ReportLab)  
-- **Kaggle** para la descarga de datos  
+- **Kaggle API** para la descarga de datos  
 - **ReportLab** para la generación del PDF final  
 
 ---
@@ -49,4 +87,3 @@ El conjunto de datos ha sido limpiado y procesado para su uso en esta aplicació
 > 💡 *Esta app fue creada con fines educativos para promover el análisis de datos en salud utilizando herramientas abiertas y reproducibles.*
 
 ---
-
